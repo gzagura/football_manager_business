@@ -1,0 +1,32 @@
+{
+  "name": "football_manager_business",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/bot.ts",
+    "build": "tsc",
+    "start": "node dist/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzagura/football_manager_business.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzagura/football_manager_business/issues"
+  },
+  "homepage": "https://github.com/gzagura/football_manager_business#readme",
+  "dependencies": {
+    "dotenv": "^17.1.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.12",
+    "@types/node-telegram-bot-api": "^0.64.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
